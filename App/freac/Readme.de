@@ -1,4 +1,4 @@
-fre:ac Version 1.0.24
+fre:ac Version 1.0.25
 
 fre:ac ist ein freier Open-Source Audiokonverter für verschiedene Formate.
 Das Programm unterstützt das Rippen von Audio-CDs und konvertiert folgende
@@ -96,6 +96,20 @@ Bekannte Probleme
 Geschichte
 ----------
 
+	Version 1.0.25 CVS (September 2015)
+
+		- Italienische, schwedische, baskische und valencianische Übersetzungen aktualisiert
+		- Unterstützung für Coverbilder in MP4/AAC- und Ogg Vorbis-Dateien hinzugefügt
+		- Beachte dezimale VBR-Qualitätswerte in den LAME-Einstellungen
+		- Speichere Playlisten und Cue Sheets im Eine-Datei-Modus zusammen mit Ausgabedatei
+		- Überschreiben vorhandener Dateien im "Ausgabe in Eingabeordner"-Modus behoben
+		- Problem behoben, durch das LAME im Auto-Resampling-Modus keine beliebigen Sampleraten akzeptierte
+		- Möglichen Absturz bei CDDB-Abfragen behoben
+		- Abstürze in den MAD- und FLAC-Decoder-Komponenten behoben
+		- Absturz beim Versuch, WMA-Dateien ohne gesetzte Abspieldauer abzuspielen, behoben
+		- Fehler behoben, durch den keine Coverbilder ohne Beschreibung in WMA-Dateien geschrieben wurden
+		- CDRip auf Version 1.25 aktualisiert um Probleme bei der Laufwerkserkennung zu beheben
+
 	Version 1.0.24 (Juli 2015)
 
 		- Toleranz gegen Mauszittern für Tooltips hinzugefügt
@@ -109,7 +123,7 @@ Geschichte
 
 	Version 1.0.23 (November 2014)
 
-		- Sprachunterstützung für Basikisch und Serbisch (Kyrillisch) hinzugefügt
+		- Sprachunterstützung für Baskisch und Serbisch (Kyrillisch) hinzugefügt
 		- Chinesische (traditionell) und tschechische Übersetzungen aktualisiert
 		- Baskische Anleitung hinzugefügt
 		- Unterstützung zum Lesen von Windows Wave-Dateien im IEEE Float-Format hinzugefügt
@@ -474,7 +488,7 @@ Besonderen Dank
 			   Naglis Jonaitis (Litauisch),
 			   Borca Alin und Laurentiu Bubuianu (Rumänisch),
 			   El libre (Katalanisch),
-			   Vjatv (Valencianisch),
+			   Agustín Bou (Valencianisch),
 			   Jose Goncalves (Portugiesisch),
 			   Meelis Pasieko (Estnisch),
 			   Goran Bekic (Kroatisch),
