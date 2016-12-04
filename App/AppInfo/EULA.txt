@@ -1,3 +1,0 @@
-﻿fre:ac - MP3 Encoder Restrictions
-
-Personal and/or commercial use of compiled versions of the fre:ac MP3 codec may require a patent license in some countries. Please check before installing this codec.  If you are installing this application through the PortableApps.com Platform and are not permitted to use the MP3 codec, please cancel this installation and install the application by downloading and running the freacPortable_x.y.z.paf.exe installer directly to install fre:ac without the MP3 codec.

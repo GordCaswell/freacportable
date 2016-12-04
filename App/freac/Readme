@@ -1,4 +1,4 @@
-fre:ac version 1.0.26
+fre:ac version 1.0.27
 
 fre:ac is a free and open source audio converter for various formats.
 It supports audio CD ripping and converts the following audio formats:
@@ -63,7 +63,7 @@ Requirements
 	Additional requirements for compiling the sources:
 
 		- MinGW GCC v4.0+ (http://www.mingw.org/) or Microsoft Visual Studio 2015
-		- smooth v0.8.71.4 (http://www.smooth-project.org/)
+		- smooth v0.8.71.5 (http://www.smooth-project.org/)
 
 	Additional optional software:
 
@@ -95,7 +95,18 @@ Known problems
 History
 -------
 
-	Version 1.0.26 CVS (October 2015)
+	Version 1.0.27 (December 2016)
+
+		- added Cantonese (Hong Kong) and Corsican language support
+		- minor improvements for CDDB submit dialog
+		- improved detection of cover art mime types
+		- display error message only once when adding multiple files while converting
+		- fixed erroneous message about non existing folder if it is drive's root
+		- fixed issues handling CDDB entries with line breaks
+		- fixed inability to send new CDDB entries when there was a disc-id collision
+		- fixed CDDB query dialog appearing off screen when main window is minimized
+
+	Version 1.0.26 (October 2015)
 
 		- updated Serbian (Latin and Cyrillic) translations
 		- improved detection of concatenated MP3 files
@@ -511,7 +522,9 @@ Special thanks to
 			   Eman Ali Fhoula (Arabic),
 			   Martin Deyanov (Bulgarian),
 			   Cois Wiid (Afrikaans),
-			   Xabier Aramendi (Basque)
+			   Xabier Aramendi (Basque),
+			   Kin Kwok (Cantonese, Hong Kong),
+			   Patriccollu di Santa Maria è Sichè (Corsican)
 
 	- Hans-Juergen Bardenhagen for his help and suggestions for the FAAC encoder
 	- all the testers and everyone who submitted bug reports

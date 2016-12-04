@@ -24,8 +24,8 @@ Some configuration in the PortableApps.com Launcher can be overridden by the
 user in an INI file next to freacPortable.exe called freacPortable.ini.
 If you are happy with the default options, it is not necessary, though.  There
 is an example INI included with this package to get you started.  To use it,
-copy AppNamePortable.ini from this directory to freacortable.ini next to
-freacrtable.exe. The options in the INI file are as follows:
+copy AppNamePortable.ini from this directory to freacPortable.ini next to
+freacPortable.exe. The options in the INI file are as follows:
 
    AdditionalParameters=
    DisableSplashScreen=false
