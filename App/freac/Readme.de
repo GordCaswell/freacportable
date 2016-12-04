@@ -1,4 +1,4 @@
-fre:ac Version 1.0.25
+fre:ac Version 1.0.26
 
 fre:ac ist ein freier Open-Source Audiokonverter für verschiedene Formate.
 Das Programm unterstützt das Rippen von Audio-CDs und konvertiert folgende
@@ -63,8 +63,8 @@ Voraussetzungen
 
 	Zusätzliche Vorraussetzungen zur Übersetzung des Quellcodes:
 
-		- MinGW GCC v4.0+ (http://www.mingw.org/) oder Microsoft Visual C++ v10.0
-		- smooth v0.8.71.3 (http://www.smooth-project.org/)
+		- MinGW GCC v4.0+ (http://www.mingw.org/) oder Microsoft Visual Studio 2015
+		- smooth v0.8.71.4 (http://www.smooth-project.org/)
 
 	Zusätzliche optionale Software:
 
@@ -96,7 +96,21 @@ Bekannte Probleme
 Geschichte
 ----------
 
-	Version 1.0.25 CVS (September 2015)
+	Version 1.0.26 CVS (Oktober 2015)
+
+		- Serbische (Latein und Kyrillisch) Übersetzungen aktualisiert
+		- Erkennung von zusammengefügten MP3-Dateien verbessert
+		- Öffnen und Speichern von Ogg Vorbis-Dateien mit Coverbildern beschleunigt
+		- Lese nicht-Standardfelder TOTALTRACKS und TOTALDISCS aus Vorbis Comments
+		- Schreibe beim Rippen von Audio CDs Anzahl der Tracks in Tags
+		- Absturz behoben, wenn Vorbis-Kodierer nicht initialisiert werden kann
+		- Absturz beim Versuch, ungültige Ogg Vorbis-Dateien zu öffnen, behoben
+		- Absturz beim Versuch, Ogg Vorbis-Dateien mit sehr großen Coverbildern zu speichern, behoben
+		- Absturz beim Scrollen der Joblist mit sichtbarem Tooltip behoben
+		- Fehler beim Parsen von Xing/LAME MP3-Informationstags behoben
+		- Fehler behoben, durch den Text in Eingabefeldern im skalierten Modus u.U. verschwand
+
+	Version 1.0.25 (September 2015)
 
 		- Italienische, schwedische, baskische und valencianische Übersetzungen aktualisiert
 		- Unterstützung für Coverbilder in MP4/AAC- und Ogg Vorbis-Dateien hinzugefügt

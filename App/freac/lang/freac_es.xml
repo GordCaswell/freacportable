@@ -49,7 +49,7 @@
     <entry id="36" string="Wave Files">Archivos de audio Wave</entry>
     <entry id="37" string="Windows CD Audio Track">Pista de CD de audio Windows</entry>
     <entry id="38" string="All Files">Todos los archivos</entry>
-    <entry id="39" string="You did not select a track!">¡No ha selecionado ninguna pista!</entry>
+    <entry id="39" string="You did not select a track!">¡No ha seleccionado ninguna pista!</entry>
     <entry id="40" string="The encoding thread is still running! Do you really want to quit?">¡El proceso de compresión todavía no ha terminado! ¿Realmente quiere salir?</entry>
     <entry id="41" string="Currently encoding">Compresión iniciada</entry>
     <entry id="42" string="This program is being distributed under the terms&#10;of the GNU General Public License (GPL).">Este programa se distribuye bajo las cláusulas de&#10;GNU General Public License (GPL).</entry>
@@ -351,7 +351,7 @@
     <entry id="347" string="Use input file folder if possible">Usar carpeta de origen, si es posible</entry>
     <entry id="348" string="Encode to input file folder if possible">Codificar hacia carpeta de origen, si es posible</entry>
     <entry id="349" string="Allow overwriting input file">Permitir sobrescribir el archivo de entrada</entry>
-    <entry id="350" string="Encode to single file">Unir en un solo archivo</entry>
+    <entry id="350" string="Encode to a single file">Unir en un solo archivo</entry>
     <entry id="351" string="Encoder options">Opciones del compresor</entry>
     <entry id="352" string="Skip">Omitir</entry>
     <entry id="353" string="Enable local CDDB database">Usar base de datos CDDB local</entry>
@@ -409,8 +409,8 @@
     <entry id="405" string="Set drive speed limit:">Velocidad límite del lector:</entry>
     <entry id="406" string="Support this project">Apoye este proyecto</entry>
     <entry id="407" string="Please support this project!">¡Por favor, apoye este proyecto!</entry>
-    <entry id="408" string="Please help keep this software free by supporting the %1 project&#10;with a donation.&#10;&#10;Click one of the buttons below to make a donation using PayPal:">Por favor, ayude a mantener este software gratuito&#10;apoyando el proyecto %1 con una donación.&#10;&#10;Pulse uno de los botones de abajo para donar usando PayPal:</entry>
-    <entry id="409" string="You can also send money directly to %1 using PayPal.&#10;&#10;Please write to %1 if you would like to donate using&#10;electronic transfer, mail a cheque or send money by mail.">También puede enviar dinero directamente a %1 usando PayPal.&#10;&#10;Por favor, escriba a %1 si desea donar usando una&#10;transferencia electrónica o enviando un cheque o dinero por correo.</entry>
+    <entry id="408" string="Please help keep this software free by supporting the %1 project&#10;with a donation.&#10;&#10;Click one of the buttons below to make a donation using PayPal:">Por favor, ayude a mantener este software gratuito apoyando el&#10;proyecto %1 con una donación.&#10;&#10;Pulse uno de los botones de abajo para donar usando PayPal:</entry>
+    <entry id="409" string="You can also send money directly to %1 using PayPal.&#10;&#10;Please write to %1 if you would like to donate using&#10;electronic transfer, mail a cheque or send money by mail.">También puede enviar dinero directamente a %1&#10;usando PayPal.&#10;&#10;Por favor, escriba a %1 si desea donar usando una&#10;transferencia electrónica o enviando un cheque o dinero por correo.</entry>
     <entry id="410" string="usd">eur</entry>
     <entry id="411" string="en">en</entry>
     <entry id="412" string="Thank you very much!">¡Muchas gracias!</entry>
