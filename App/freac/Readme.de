@@ -1,4 +1,4 @@
-fre:ac Version 1.0.27
+fre:ac Version 1.0.28
 
 fre:ac ist ein freier Open-Source Audiokonverter für verschiedene Formate.
 Das Programm unterstützt das Rippen von Audio-CDs und konvertiert folgende
@@ -95,6 +95,13 @@ Bekannte Probleme
 
 Geschichte
 ----------
+
+	Version 1.0.28 (Februar 2017)
+
+		- Chinesische (traditionell) Übersetzung aktualisiert
+		- Die Konfiguration wird jetzt in freac.xml gespeichert
+		- Absturz bei einigen ungültigen Cover-Bildern behoben
+		- FLAC auf Version 1.3.2 aktualisiert
 
 	Version 1.0.27 (Dezember 2016)
 
@@ -493,7 +500,7 @@ Besonderen Dank
 			   Jose Maria Vera Somoza (Spanisch, Latinamerikanisch),
 			   Nikolaos-Ioannis Galanis (Griechisch),
 			   Evgeny Kozlov (Russisch),
-			   Henryk Ning (Chinesisch, traditionell),
+			   Henryk Ning und Meng Pang Wang (Chinesisch, traditionell),
 			   Joeyong Jen (Chinesisch, vereinfacht),
 			   Michal Trzebiatowski und Darek Rzeznicki (Polnisch),
 			   Peter Toth (Ungarisch),
