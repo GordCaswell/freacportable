@@ -1,4 +1,4 @@
-fre:ac Version 1.0.28
+fre:ac Version 1.0.29
 
 fre:ac ist ein freier Open-Source Audiokonverter für verschiedene Formate.
 Das Programm unterstützt das Rippen von Audio-CDs und konvertiert folgende
@@ -6,7 +6,7 @@ Audioformate:
 
 	- MP3
 		- mit dem LAME MP3-Encoder			(http://lame.sourceforge.net/)
-		- mit dem MAD MP3-Decoder			(http://www.underbit.com/)
+		- mit dem mpg123-Decoder			(http://www.mpg123.org/)
 
 	- MP4/M4A AAC
 		- mit dem FAAC/FAAD2-Codec			(http://www.audiocoding.com/)
@@ -82,19 +82,27 @@ Bekannte Probleme
 				- Audiodaten müssen in 8, 11.025, 12, 16, 22.05, 24, 32, 44.1, 48, 64, 88.2 oder 96 kHz vorliegen
 		- FLAC:
 				- Der FLAC-Referenzencoder ist auf eine Sampleauflösung von 24bit beschränkt
-		- LAME:
-				- Audiodaten müssen in 8, 11.025, 12, 16, 22.05, 24, 32, 44.1 oder 48 kHz vorliegen,
-				  können von LAME konvertiert werden
 		- TwinVQ:
 				- Audiodaten müssen in 22.05 kHz (24 und 32 kBit) oder 44.1 kHz (48 kBit) vorliegen
 
-	- Resampling wird nur mit LAME unterstützt. Eingabedateien müssen die gewünschte
-	  Ausgabe-Samplingrate haben, wenn Sie nicht LAME verwenden.
+	- Resampling wird nur mit LAME unterstützt. Eingabedateien müssen in der für die Ausgabe gewünschten
+	  Abtastrate vorliegen, wenn nicht LAME verwendet wird.
 
 	- fre:ac ist zurzeit auf 2 Audiokanäle beschränkt
 
 Geschichte
 ----------
+
+	Version 1.0.29 (August 2017)
+
+		- Zum Lesen von MP3-Dateien wird jetzt der mpg123-Decoder verwendet
+		- Standardblockgröße bei FLAC auf 4096 Samples geändert, entsprechend den offiziellen FLAC-Tools
+		- Unterstützung für veraltete Main- und LTP-AAC-Profile entfernt
+		- Problem mit Fortschrittsanzeige bei lange laufenden Konvertierungen behoben
+		- Probleme beim Umgang mit Tabulatorzeichen in Titelinformationen behoben
+		- CDRip auf Version 1.26 aktualisiert um Probleme mit Laufwerken mit dem Buchstaben A: zu beheben
+		- FAAC auf Version 1.29.7 aktualisiert
+		- FAAD2 suf Version 2.8.1 aktualisiert
 
 	Version 1.0.28 (Februar 2017)
 
